@@ -278,9 +278,11 @@ section {
   flex-direction: column;
 }
 
+/* ryan: added align-items line to fix styling */
 .about-containers,
 .about-details-container {
   display: flex;
+  align-items: flex-end;
 }
 
 .about-pic {
@@ -429,4 +431,9 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* ryan: fix for aligning java */
+.testName {
+  width: 100%;
 }
